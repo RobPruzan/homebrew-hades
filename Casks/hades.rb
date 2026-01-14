@@ -14,6 +14,7 @@ cask "hades" do
   homepage "https://github.com/RobPruzan/special-package"
 
   app "Hades.app"
+  binary "#{appdir}/Hades.app/Contents/Resources/cli/hades"
 
   zap trash: [
     "~/Library/Application Support/hades",
